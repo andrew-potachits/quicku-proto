@@ -99,16 +99,17 @@
       <DependentUpon>FlipsideViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="CalculationParametersDataSource.cs" />
-    <Compile Include="ICalculationParametersData.cs" />
-    <Compile Include="CalculationModel.cs" />
     <Compile Include="CalculationDelegate.cs" />
-    <Compile Include="ICalculationData.cs" />
-    <Compile Include="DBCalculationData.cs" />
-    <Compile Include="ICalculationModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainViewController.xib" />
     <InterfaceDefinition Include="FlipsideViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\DataModel\DataModel.csproj">
+      <Project>{D5BB4659-FA96-40A0-9FFA-9CBB36CF0B55}</Project>
+      <Name>DataModel</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

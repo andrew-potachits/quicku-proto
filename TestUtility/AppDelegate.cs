@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using DataModel.Interfaces;
+using DataModel;
 
 namespace TestUtility
 {

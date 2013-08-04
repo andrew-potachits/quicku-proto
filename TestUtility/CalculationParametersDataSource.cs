@@ -1,6 +1,7 @@
 using System;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using DataModel.Interfaces;
 
 namespace TestUtility
 {
@@ -25,7 +26,7 @@ namespace TestUtility
 			if (cell == null)
 				cell = new UITableViewCell ();
 
-			cell.TextLabel.Text = _data.GetText ((ParamType)indexPath.Row);
+			cell.TextLabel.Text = _data.GetValue((ParamType)indexPath.Row);
 
 			return cell;
 		}

@@ -2,22 +2,24 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.1" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TestUtility/CalculationModel.cs">
     <Files>
-      <File FileName="TestUtility/MainViewController.cs" Line="19" Column="52" />
-      <File FileName="TestUtility/CalculationDelegate.cs" Line="9" Column="30" />
-      <File FileName="TestUtility/AppDelegate.cs" Line="30" Column="20" />
-      <File FileName="TestUtility/CalculationParametersDataSource.cs" Line="28" Column="52" />
-      <File FileName="TestUtility/ICalculationData.cs" Line="13" Column="3" />
-      <File FileName="TestUtility/DBCalculationData.cs" Line="12" Column="41" />
-      <File FileName="TestUtility/ICalculationModel.cs" Line="12" Column="39" />
-      <File FileName="TestUtility/CalculationModel.cs" Line="13" Column="16" />
+      <File FileName="TestUtility/MainViewController.cs" Line="14" Column="4" />
+      <File FileName="TestUtility/CalculationDelegate.cs" Line="1" Column="1" />
+      <File FileName="TestUtility/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="TestUtility/CalculationParametersDataSource.cs" Line="1" Column="1" />
+      <File FileName="TestUtility/DBCalculationData.cs" Line="1" Column="1" />
+      <File FileName="TestUtility/CalculationModel.cs" Line="2" Column="7" />
+      <File FileName="DataModel/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="DataModel/Interfaces/ICalculationModel.cs" Line="10" Column="1" />
+      <File FileName="DataModel/Interfaces/ICalculationData.cs" Line="14" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="TestUtility" expanded="True" selected="True">
+          <Node name="DataModel" expanded="True" selected="True">
+            <Node name="Interfaces" expanded="True" />
+          </Node>
+          <Node name="TestUtility" expanded="True">
             <Node name="References" expanded="True" />
-            <Node name="FlipsideViewController.cs" expanded="True" />
-            <Node name="MainViewController.cs" expanded="True" />
           </Node>
         </State>
       </Pad>

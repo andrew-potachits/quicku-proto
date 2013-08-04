@@ -1,6 +1,8 @@
 using System;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using DataModel;
+using DataModel.Interfaces;
 
 namespace TestUtility
 {
